@@ -3,4 +3,4 @@ node_modules
 .vscode/
 authentication.js
 note/
-**/*-todo.mds
+**/*-todo.md
