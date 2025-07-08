@@ -21,6 +21,10 @@ Git is used for versioning of data and information record keeping
 - git commit -m "comment for commit" (This will commit the files in actions along with a comment, log entry and a hash)
 - git push (This will push the commited changes to the github repo)
 - git restore . / filename (This will remove the changes made on the files)
+- git restore filename -s / --staged (to restore deleted file)
+- git rm -r --cached . (To remove cache data)
+- git rm filename (This is delete the file but will also stage it automatically)
+- git mv filename1 filename2 (This will rename the file1 to file2)
 
 
 - git ignore 
