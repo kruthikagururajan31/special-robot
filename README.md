@@ -5,6 +5,7 @@ Git is used for versioning of data and information record keeping
 
 - git init (This will initialize the project with Git and create a .git folder)
 - git log (This will show the logs)
+- git log --oneline (Shows all the log summary in one line)
 - git status (This will show which branch and what state the data is at based on below states)
 
 - States of files:
@@ -19,6 +20,7 @@ Git is used for versioning of data and information record keeping
 
 - git add . / filename (This will add the files to the staging env to plan for commit)
 - git commit -m "comment for commit" (This will commit the files in actions along with a comment, log entry and a hash)
+- git commit --amend / -m "new commit message" / --no-edit (This is amend i.e add or make changes to the already made commit along with a new commit message via terminal command or using the editor which is opened upon amend command)
 - git push (This will push the commited changes to the github repo)
 - git restore . / filename (This will remove the changes made on the files)
 - git restore filename -s / --staged (to restore deleted file)
@@ -34,3 +36,15 @@ Git is used for versioning of data and information record keeping
 -- Local env values 
 -- Coding files like node_modules
 -- Create it at the root level as .gitignore file
+
+
+- git diff (This will show all the differences in files)
+- git diff commitNub (This will take the commit number from the log oneline and shows the difference in the commits) 
+- git rebase --interactive <branch>/<commit> (This will allow to amend the commit from one branch to another)
+
+Git Flows: Create a new feature branch, switch to a feature branch, make changes, merge to master, delete the feature branch
+- git branch (This will show all the branches in the repo)
+- git branch -d NAME (This will delete the branch as long as conflicts don't exists)
+- git switch -c NAME / git checkout -b NAME (This will copy the main/master branch to another named branch)
+- git switch NAME / git checkout NAME (This will switch to the named branch)
+- git merge <branch> (This will merge the branch specified to the current branch you're on - so development branch chages can be mergered to main by executing this command in main)
