@@ -48,11 +48,12 @@ Git Flows: Create a new feature branch, switch to a feature branch, make changes
 - git switch -c NAME / git checkout -b NAME (This will copy the main/master branch to another named branch)
 - git switch NAME / git checkout NAME (This will switch to the named branch)
 - git merge <branch> (This will merge the branch specified to the current branch you're on - so development branch chages can be mergered to main by executing this command in main)
--
-
-No line on this file
 - git checkout -d NAME
 - If you need to merge something to main, then you need to go to main and then merge the feature branch
 
 
-This is a new line on this file.
+Store the code somewhere temporary to work on something else?
+- git stash (Store it somewhere on the side - works like a deck of card - latest one will be at the top)
+- git stash list
+- git stash apply
+- git stash pop
