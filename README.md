@@ -57,3 +57,15 @@ Store the code somewhere temporary to work on something else?
 - git stash list
 - git stash apply
 - git stash pop
+
+- git clean -n (dry run) / -d (directories) / -f (force) - remove untracked files
+- git clean -dn / -df
+
+
+Create a remote of your work in GitHub Repository
+- git remote add NAME URL 
+- git remote add origin https://github.com/kgururaj0031/laughing-pancake.git
+- git remote -v (List and verbose the repo)
+- git remove OLDNAME NEWNAME (This will rename the remote connection)
+- git branch -M main
+- git push -u origin main
