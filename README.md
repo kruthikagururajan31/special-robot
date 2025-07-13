@@ -51,3 +51,8 @@ Git Flows: Create a new feature branch, switch to a feature branch, make changes
 -
 
 No line on this file
+- git checkout -d NAME
+- If you need to merge something to main, then you need to go to main and then merge the feature branch
+
+
+This is a new line on this file.
