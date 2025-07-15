@@ -64,7 +64,7 @@ Store the code somewhere temporary to work on something else?
 
 Create a remote of your work in GitHub Repository
 - git remote add NAME URL 
-- git remote add origin https://github.com/kgururaj0031/laughing-pancake.git
+- git remote add origin https://github.com/kgururaj0031/special-robot.git
 - git remote -v (List and verbose the repo)
 - git remove OLDNAME NEWNAME (This will rename the remote connection)
 - git branch -M main
