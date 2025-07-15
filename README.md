@@ -69,3 +69,6 @@ Create a remote of your work in GitHub Repository
 - git remove OLDNAME NEWNAME (This will rename the remote connection)
 - git branch -M main
 - git push -u origin main
+
+
+GitHub is a platform for Git to socialize and store data.
